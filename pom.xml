@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.academy</groupId>
+    <artifactId>taf</artifactId>
+    <version>1.0-SNAPSHOT</version>
+
+    <properties>
+        <!--Версия jdk-->
+        <maven.compiler.source>1.8</maven.compiler.source>
+        <maven.compiler.target>1.8</maven.compiler.target>
+        <!--Кодировка-->
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+
+
+        <poi.ooxml.version>4.0.1</poi.ooxml.version>
+        <selenium.version>3.141.59</selenium.version>
+        <testng.version>7.0.0-beta3</testng.version>
+
+        <!---тестовые данные -->
+        <common.conf>${basedir}/src/main/resources/common.properties</common.conf>
+        <automationPractice.conf>${basedir}/src/main/resources/automationpractice.properties</automationPractice.conf>
+        <rozetka.conf>${basedir}/src/main/resources/rozetka.properties</rozetka.conf>
+    </properties>
+
+    <dependencies>
+        <!--Excel package-->
+        <dependency>
+            <groupId>org.apache.poi</groupId>
+            <artifactId>poi-ooxml</artifactId>
+            <version>${poi.ooxml.version}</version>
+            <scope>provided</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.seleniumhq.selenium</groupId>
+            <artifactId>selenium-java</artifactId>
+            <version>3.141.59</version>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/org.testng/testng -->
+        <dependency>
+            <groupId>org.testng</groupId>
+            <artifactId>testng</artifactId>
+            <version>7.0.0-beta3</version>
+            <scope>provided</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.testng</groupId>
+            <artifactId>testng</artifactId>
+            <version>6.9.4</version>
+            <scope>provided</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.poi</groupId>
+            <artifactId>poi-ooxml</artifactId>
+            <version>4.0.1</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.poi</groupId>
+            <artifactId>poi-ooxml</artifactId>
+            <version>4.0.1</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.poi</groupId>
+            <artifactId>poi-ooxml</artifactId>
+            <version>4.0.1</version>
+        </dependency>
+    </dependencies>
+
+</project>
